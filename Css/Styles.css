@@ -29,48 +29,69 @@ h3
   color: #11999E;
   line-height: 2em;
 }
+p{
+  line-height: 2;
+
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
 .top-container {background-color: #c2e8ce;
 position: relative;
-padding: 100px;
+padding-top: 100px;
 
 }
 
 .middle-container {background-color: white;
+  margin: 100px 0 ;
 
 
 }
 .bottom-container{
-   background-color: #65bfbf;
+   background-color: #66bfbf;
+   padding: 16px 0 16px;
 
 }
 
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 
   }
   .top-cloud {
     position: absolute;
     right: 300px;
-    top: 50px;
+    top: 40px;
 
   }
   .footer-link{
-    color:#11999E
-
-;
+    color:#11999E;
   }
-  .btn{
-    color: #11999E;
 
-  }
+
+
+
+
   .skill-row{
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-    line-height: 2;
+
   }
   .code-img{
     width: 25%;
@@ -85,8 +106,9 @@ padding: 100px;
     margin-left: 30px;
   }
   .down-text{
-    color: #EAF6F6
-;
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
   }
   .hr3{
     border-style: none;
@@ -94,4 +116,15 @@ padding: 100px;
     border-color: #EAF6F6;
     border-width: 5px;
     width: 5%;
+  }
+  .p-one
+  {
+    width: 30%;
+    margin:auto;
+
+  }
+  .last-p
+  {
+    width: 40%;
+    margin:40px auto 60px;
   }
